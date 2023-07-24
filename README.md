@@ -1,5 +1,5 @@
 
-![NOAA PMEL Ocean Molecular Ecology Group ](/Users/zgold/Documents/GitHub/Ocean-Molecular-Ecology/NOAA-Lockup-PMEL-OME_horz\ logo\ copy.png)
+![NOAA PMEL Ocean Molecular Ecology Group ](NOAA-Lockup-PMEL-OME_horz.png)
 
 # NOAA PMEL Ocean Molecular Ecology Group 
 Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology group bioinformatics and data analysis. <br>
