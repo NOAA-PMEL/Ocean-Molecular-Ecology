@@ -38,8 +38,8 @@ See https://github.com/BeBOP-OBON/miop/blob/main/model/schema/terms.yaml for lis
 
 ### 3. 
 | PROTOCOL NAME          | LINK | ISSUER/AUTHOR | RELEASE DATE |
-| --------------------- | --------------------- |--------------------- |
-|https://github.com/MBARI-BOG/MBON-Protocols/blob/main/eDNA_COI_PCR_V2.md	|Jacoby Baker|	3/20/18|
+| --------------------- | --------------------- |--------------------- | --------------------- |
+| MBARI MBON eDNA CO1 PCR V2 | https://github.com/MBARI-BOG/MBON-Protocols/blob/main/eDNA_COI_PCR_V2.md	|Jacoby Baker|	3/20/18|
 ## ACRONYMS AND ABBREVIATIONS
 ### 4. 
 | ACRONYMS / ABBREVIATIONS             | DEFINITION |
