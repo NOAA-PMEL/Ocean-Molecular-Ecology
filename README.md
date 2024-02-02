@@ -4,11 +4,22 @@
 Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology group bioinformatics and data analysis. <br>
 
 ## Authors
-Zachary Gold - [NOAA Github](https://github.com/marinednadude/) <br>
-Sean McAllister - [NOAA Github](https://github.com/McAllister-NOAA/) <br>
-Shannon Brown  
-Han Weinrich
+[Zachary Gold](https://github.com/marinednadude/) <br>
+[Sean McAllister](https://github.com/McAllister-NOAA/) <br>
+[Shannon Brown](https://github.com/HanWeinrich)<br>
+[Han Weinrich](https://github.com/HanWeinrich)<br>
 
+## Protocols
+
+### PCR Protocols
+|Protocol|
+|--------|
+|[Parada universal 16S](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md) |
+|[Stoeck phytoplankton 18S V4](https://github.com/marinednadude/NOAA-PMEL-OME-Stoeck-phytoplankton-18S-V4-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Stoeck-phytoplankton-18S-V4-PCR-Protocol-BeBOP.md|
+|[AmaralZettler phytoplankton 18S V9](https://github.com/marinednadude/NOAA-PMEL-OME-AmaralZettler-phytoplankton-18S-V9-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-AmaralZettler-phytoplankton-18S-V9-PCR-Protocol-BeBOP.md)|
+|[MiFish modified Universal Teleost 12S](https://github.com/marinednadude/NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP.md)|
+|[LF metazoan COI](https://github.com/marinednadude/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP.md)|
+|[Baker marine mammal dLoop](https://github.com/marinednadude/NOAA-PMEL-OME-Baker-marmam-dLoop-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Baker-marmam-dLoop-PCR-Protocol-BeBOP.md)|
 ## Bioinformatics & Data Analysis Repositories
 Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/McAllister-NOAA/REVAMP) <br>
 Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) <br>
