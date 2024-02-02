@@ -12,7 +12,7 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 ## Protocols
 
 ### PCR Protocols
-|Protocol|
+|Marker|
 |--------|
 |[Parada universal 16S](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md) |
 |[Stoeck phytoplankton 18S V4](https://github.com/marinednadude/NOAA-PMEL-OME-Stoeck-phytoplankton-18S-V4-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Stoeck-phytoplankton-18S-V4-PCR-Protocol-BeBOP.md)|
