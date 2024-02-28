@@ -6,7 +6,7 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 ## Authors
 [Zachary Gold](https://github.com/marinednadude/) <br>
 [Sean McAllister](https://github.com/McAllister-NOAA/) <br>
-[Shannon Brown](https://github.com/HanWeinrich)<br>
+[Shannon Brown](https://github.com/Brown-NOAA)<br>
 [Han Weinrich](https://github.com/HanWeinrich)<br>
 
 ## Protocols
