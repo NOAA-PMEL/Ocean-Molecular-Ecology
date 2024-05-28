@@ -8,6 +8,7 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 [Sean McAllister](https://github.com/McAllister-NOAA/) <br>
 [Shannon Brown](https://github.com/Brown-NOAA)<br>
 [Han Weinrich](https://github.com/HanWeinrich)<br>
+[Sam Setta](https://github.com/DiatomSetta)<br>
 
 ## Protocols
 
