@@ -14,12 +14,12 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 ### eDNA Sample Collection Protocols
 |Type|
 |--------|
-|[NOAA PMEL OME eDNA Collection Protocol](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD/blob/34e0e067043efa2bf1a83b1f9e517a58d44f69d6/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD.md))|
+|[NOAA PMEL OME eDNA Collection Protocol](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD/blob/34e0e067043efa2bf1a83b1f9e517a58d44f69d6/NOAA-PMEL-OME_eDNA_Collection_Protocol_CTD.md)|
 
 ### Extraction Protocols
 |Type|
 |--------|
-|[Sterivex Extraction Protocol](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge)|
+|[Sterivex Extraction Protocol](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md)|
 
 ### PCR Protocols
 |Marker|
