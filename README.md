@@ -31,6 +31,7 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 |[LF metazoan COI](https://github.com/marinednadude/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP.md)|
 |[Baker marine mammal dLoop](https://github.com/marinednadude/NOAA-PMEL-OME-Baker-marmam-dLoop-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Baker-marmam-dLoop-PCR-Protocol-BeBOP.md)|
 |[Kelly Metazoan 16S](https://github.com/marinednadude/NOAA-PMEL-OME-Kelly-Metazoan-16S-PCR-Protocol-BeBOP-/blob/main/NOAA-PMEL-OME-Kelly-Metazoan-16S-PCR-Protocol-BeBOP.md)|
+|[White Sterling Phytoplankton ITS1](https://github.com/marinednadude/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP.md)|
 
 ## Bioinformatics & Data Analysis Repositories
 Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/McAllister-NOAA/REVAMP) <br>
