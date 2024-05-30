@@ -11,6 +11,10 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 [Sam Setta](https://github.com/DiatomSetta)<br>
 
 ## Protocols
+### eDNA Sample Collection Protocols
+|Type|
+|--------|
+|[NOAA PMEL OME eDNA Collection Protocol](https://github.com/marinednadude/NOAA-PMEL-OME_Collection_Protocol_CTD_Draft)|
 
 ### Extraction Protocols
 |Type|
