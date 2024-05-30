@@ -12,6 +12,11 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 
 ## Protocols
 
+### Extraction Protocols
+|Type|
+|--------|
+|[Sterivex Extraction Protocol](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge)|
+
 ### PCR Protocols
 |Marker|
 |--------|
