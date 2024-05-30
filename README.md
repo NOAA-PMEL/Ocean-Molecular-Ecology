@@ -10,7 +10,11 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 [Han Weinrich](https://github.com/HanWeinrich)<br>
 [Sam Setta](https://github.com/DiatomSetta)<br>
 
+## Zenodo Archive
+[NOAA/PMEL Ocean Molecular Ecology Zenodo Community](https://zenodo.org/communities/noaa_ome/)
+
 ## Protocols
+
 ### eDNA Sample Collection Protocols
 |Type|
 |--------|
