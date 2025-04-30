@@ -9,6 +9,7 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 [Shannon Brown](https://github.com/Brown-NOAA)<br>
 [Han Weinrich](https://github.com/HanWeinrich)<br>
 [Sam Setta](https://github.com/DiatomSetta)<br>
+[Brynn Zalmanek](https://github.com/brynnz22)
 
 ## Zenodo Archive
 [NOAA/PMEL Ocean Molecular Ecology Zenodo Community](https://zenodo.org/communities/noaa_ome/)
