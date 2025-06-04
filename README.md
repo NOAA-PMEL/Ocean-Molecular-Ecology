@@ -26,6 +26,11 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 |--------|
 |[Sterivex Extraction Protocol](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge.md)|
 
+### DNA Quantification Protocols
+|Type|
+|--------|
+|[Qubit Quantification Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md)|
+
 ### PCR Protocols
 |Marker|
 |--------|
@@ -38,6 +43,11 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 |[Kelly Metazoan 16S](https://github.com/marinednadude/NOAA-PMEL-OME-Kelly-Metazoan-16S-PCR-Protocol-BeBOP-/blob/main/NOAA-PMEL-OME-Kelly-Metazoan-16S-PCR-Protocol-BeBOP.md)|
 |[White Sterling Phytoplankton ITS1](https://github.com/marinednadude/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP.md)|
 |[Machida Metazoan 18S V8](https://github.com/marinednadude/NOAA-PMEL-OME-Machida-Metazoan-18S-V8-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Machida-Metazoan-18S-V8-PCR-Protocol-BeBOP.md)|
+
+### PCR Quantification Protocols
+|Type|
+|--------|
+|[Gel Electrophoresis Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP.md)|
 
 
 ## Bioinformatics & Data Analysis Repositories
