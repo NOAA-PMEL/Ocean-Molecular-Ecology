@@ -29,7 +29,7 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 ### DNA Quantification Protocols
 |Type|
 |--------|
-|[Qubit Quantification Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP.md)|
+|[Qubit Quantification Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP.md)|
 
 ### PCR Protocols
 |Marker|
