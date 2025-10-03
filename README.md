@@ -24,8 +24,8 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 ### Extraction Protocols
 |Type|
 |--------|
-|[eDNA Sterivex Extraction Proctocol with Centrifuge](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge.md)|
-|[Disc Filter Extraction Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge.md)|
+|[eDNA Sterivex Extraction Proctocol](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Proctocol_Centrifuge.md)|
+|[eDNA Disc Filter Extraction Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge.md)|
 
 ### DNA Quantification Protocols
 |Type|
