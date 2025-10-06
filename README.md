@@ -19,8 +19,8 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 ### eDNA Sample Collection Protocols
 |Type|
 |--------|
-|[eDNA Collection Protocol with Sterviex and Peristaltic Pump](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump.md)
-|[eDNA Collection Protocol with Sterviex and Gravity Bag](https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md)
+|[eDNA Collection Protocol with Sterviex and Peristaltic Pump](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump.md)|
+|[eDNA Collection Protocol with Sterviex and Gravity Bag](https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md)|
 
 ### Extraction Protocols
 |Type|
@@ -31,7 +31,7 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 ### DNA Quantification Protocols
 |Type|
 |--------|
-|[Qubit Quantification Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol_BeBOP.md)|
+|[Qubit Quantification Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol.md)|
 
 ### PCR Protocols
 |Marker|
