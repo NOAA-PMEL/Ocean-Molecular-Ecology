@@ -24,6 +24,11 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 |[eDNA Collection with Smith-Root Self Preserving eDNA Filter and Persitaltic Pump](https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_Collection_Protocol_SmithRoot_PeristalticPump_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_SmithRoot_PeristalticPump.md)|
 |[eDNA Collection with Disc Filtration with a Vacuum Pump](https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md)|
 
+# Organismal Sample Collection Protocols
+|Type|
+|--------|
+|[Organismal Subsampling and Tissue Extraction Protocol](https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol.md)|
+
 ### Extraction Protocols
 |Type|
 |--------|
@@ -52,7 +57,6 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 |Type|
 |--------|
 |[Gel Electrophoresis Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Gel_Electrophoresis_Protocol_BeBOP.md)|
-
 
 ## Bioinformatics & Data Analysis Repositories
 Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/McAllister-NOAA/REVAMP) <br>
