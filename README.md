@@ -58,6 +58,11 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 |--------|
 |[Gel Electrophoresis Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Gel_Electrophoresis_Protocol_BeBOP.md)|
 
+### qPCR Protocols
+|Marker|
+|--------|
+|[Metacarcinus magister nad2 v1](https://github.com/HanWeinrich/NOAA-PMEL-OME_MetaMag_nad2_v1_qPCR_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_MetaMag_nad2_v1_qPCR_Protocol.md)|
+
 ## Bioinformatics & Data Analysis Repositories
 Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/McAllister-NOAA/REVAMP) <br>
 Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) <br>
