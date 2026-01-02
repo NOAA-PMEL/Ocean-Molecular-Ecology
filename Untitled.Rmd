@@ -1,0 +1,35 @@
+---
+title: "Hex Sticker Anacapa + rCRUX"
+author: "Zack Gold"
+date: "2024-01-18"
+output: html_document
+---
+
+```{r}
+library(hexSticker)
+library(here)
+library(ggplot2)
+```
+
+```{r}
+s <- sticker(~plot(cars, cex=.5, cex.axis=.5, mgp=c(0,.3,0), xlab="", ylab=""),
+          package="hexSticker", p_size=20, s_x=.8, s_y=.6, s_width=1.4, s_height=1.2,
+          filename="inst/figures/baseplot.png")
+
+s
+```
+
+```{r}
+sticker("wat.png", package="hexSticker", p_size=8, s_x=1, s_y=.75, s_width=1.3, s_height=1,filename="test.png")
+
+sticker(here("Anacapa_logo.png"), package="", p_size=80, s_x=1, s_y=1, s_width=.8,
+        filename=here("Anacapa_hex.png"), h_fill="white", h_color="#04649c",)
+```
+
+```{r}
+library(showtext)
+
+sticker(here("crux logo.png"), package="rCRUX", p_size=35,p_x = 1,
+  p_y = 0.6, s_x=1, s_y=1.2, s_width=.8,p_color = "#fbcc04",p_family = "Aller_Rg",
+        filename=here("crux_hex.png"), h_fill="white", h_color="#04649c",)
+```
