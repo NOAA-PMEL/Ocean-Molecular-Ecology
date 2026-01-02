@@ -4,10 +4,64 @@
 Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology group bioinformatics and data analysis. <br>
 
 ## Authors
-Zachary Gold - [NOAA Github](https://github.com/marinednadude/) <br>
-Sean McAllister - [NOAA Github](https://github.com/McAllister-NOAA/) <br>
-Shannon Brown  
-Han Weinrich
+[Zachary Gold](https://github.com/marinednadude/) <br>
+[Sean McAllister](https://github.com/McAllister-NOAA/) <br>
+[Shannon Brown](https://github.com/Brown-NOAA)<br>
+[Han Weinrich](https://github.com/HanWeinrich)<br>
+[Sam Setta](https://github.com/DiatomSetta)<br>
+[Brynn Zalmanek](https://github.com/brynnz22)
+
+## Zenodo Archive
+[NOAA/PMEL Ocean Molecular Ecology Zenodo Community](https://zenodo.org/communities/noaa_ome/)
+
+## Protocols
+
+### eDNA Sample Collection Protocols
+|Type|
+|--------|
+|[eDNA Collection with Sterviex and Peristaltic Pump](https://github.com/marinednadude/NOAA-PMEL-OME_eDNA_Collection_Protocol_Niskin/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_PeristalticPump.md)|
+|[eDNA Collection with Sterviex and Gravity Bag](https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_Sterivex_GravityBag.md)|
+|[eDNA Collection with Smith-Root Self Preserving eDNA Filter and Persitaltic Pump](https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_Collection_Protocol_SmithRoot_PeristalticPump_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_SmithRoot_PeristalticPump.md)|
+|[eDNA Collection with Disc Filtration with a Vacuum Pump](https://github.com/Brown-NOAA/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_Collection_Protocol_DiscFilters_VacuumManifold.md)|
+
+### Organismal Sample Collection Protocols
+|Type|
+|--------|
+|[Organismal Subsampling and Tissue Extraction Protocol](https://github.com/Brown-NOAA/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_Organismal_Subsampling_Tissue_Extraction_Protocol.md)|
+
+### Extraction Protocols
+|Type|
+|--------|
+|[eDNA Sterivex Extraction Proctocol](https://github.com/marinednadude/NOAA-PMEL-OME_Extraction_Protocol_Sterivex_Centrifuge/blob/main/NOAA-PMEL-OME_eDNA_Sterivex_Extraction_Protocol_Centrifuge.md)|
+|[eDNA Disc Filter Extraction Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge_BeBOP/blob/main/NOAA-PMEL-OME_eDNA_DiscFilters_Extraction_Protocol_Centrifuge.md)|
+
+### DNA Quantification Protocols
+|Type|
+|--------|
+|[Qubit Quantification Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Qubit-Quantification-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Qubit_Quantification_Protocol.md)|
+
+### PCR Protocols
+|Marker|
+|--------|
+|[Parada universal 16S](https://github.com/marinednadude/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Parada-universal-16S-PCR-Protocol-BeBOP.md) |
+|[Stoeck phytoplankton 18S V4](https://github.com/marinednadude/NOAA-PMEL-OME-Stoeck-phytoplankton-18S-V4-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Stoeck-NCOG-phytoplankton-18S-V4-PCR-Protocol-BeBOP.md)|
+|[AmaralZettler phytoplankton 18S V9](https://github.com/marinednadude/NOAA-PMEL-OME-AmaralZettler-phytoplankton-18S-V9-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-AmaralZettler-phytoplankton-18S-V9-PCR-Protocol-BeBOP.md)|
+|[MiFish modified Universal Teleost 12S](https://github.com/marinednadude/NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-MiFish-mod-Universal-Teleost-12S-PCR-Protocol-BeBOP.md)|
+|[LF metazoan COI](https://github.com/marinednadude/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-LF-metazoan-COI-PCR-Protocol-BeBOP.md)|
+|[Baker marine mammal dLoop](https://github.com/marinednadude/NOAA-PMEL-OME-Baker-marmam-dLoop-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Baker-marmam-dLoop-PCR-Protocol-BeBOP.md)|
+|[Kelly Metazoan 16S](https://github.com/marinednadude/NOAA-PMEL-OME-Kelly-Metazoan-16S-PCR-Protocol-BeBOP-/blob/main/NOAA-PMEL-OME-Kelly-Metazoan-16S-PCR-Protocol-BeBOP.md)|
+|[White Sterling Phytoplankton ITS1](https://github.com/marinednadude/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-WhiteSterling-phytoplankton-ITS1-PCR-Protocol-BeBOP.md)|
+|[Machida Metazoan 18S V8](https://github.com/marinednadude/NOAA-PMEL-OME-Machida-Metazoan-18S-V8-PCR-Protocol-BeBOP/blob/main/NOAA-PMEL-OME-Machida-Metazoan-18S-V8-PCR-Protocol-BeBOP.md)|
+
+### PCR Quantification Protocols
+|Type|
+|--------|
+|[Gel Electrophoresis Protocol](https://github.com/HanWeinrich/NOAA-PMEL-OME-Gel-Electrophoresis-Protocol-BeBOP/blob/main/NOAA-PMEL-OME_Gel_Electrophoresis_Protocol_BeBOP.md)|
+
+### qPCR Protocols
+|Marker|
+|--------|
+|[Metacarcinus magister nad2 v1](https://github.com/HanWeinrich/NOAA-PMEL-OME_MetaMag_nad2_v1_qPCR_Protocol_BeBOP/blob/main/NOAA-PMEL-OME_MetaMag_nad2_v1_qPCR_Protocol.md)|
 
 ## Bioinformatics & Data Analysis Repositories
 Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/McAllister-NOAA/REVAMP) <br>

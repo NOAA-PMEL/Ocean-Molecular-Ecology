@@ -1,5 +1,5 @@
 # Template BeBOP PCR Protocol
-
+Hell world!
 ## MIOP: Minimum Information about an Omics Protocol
 
 ### 1. 
@@ -7,7 +7,7 @@
 | --------------------- | ------- |
 | methodology category  | omics analysis    |
 | project               | NOAA PMEL OME Program     |
-| purpose               |      |
+| purpose               | eDNA sampling     |
 | analyses              |     |
 | geographical location |      |
 |broad-scale environmental context | |
