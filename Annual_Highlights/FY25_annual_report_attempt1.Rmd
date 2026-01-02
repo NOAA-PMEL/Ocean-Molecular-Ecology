@@ -3,6 +3,8 @@ header-includes:
       - \usepackage{xcolor}
       - \definecolor{mybgcolor}{HTML}{002364}
       - \definecolor{mybgcolor2}{HTML}{5EB6D9}
+      - \definecolor{mybgcolor3}{HTML}{C6E6F0}
+      - \definecolor{mybgcolor4}{HTML}{001743}
       - \AtBeginDocument{\color{white}}
       - \usepackage[default]{sourcesanspro}
       - \usepackage[T1]{fontenc}
@@ -13,9 +15,11 @@ header-includes:
       - \usepackage{fancyhdr, graphicx, xcolor}
       - \pagestyle{fancy}
       - \fancyhf{}
-      - \fancyhead[L]{\includegraphics[height=1cm]{"noaa-omics-lrt.png"}}
-      - \fancyhead[R]{\textcolor{white}{NOAA PMEL OME}}
+      - \fancyhead[L]{\colorbox{mybgcolor3}{\makebox[\textwidth][l]{\includegraphics[height=1cm, keepaspectratio]{"noaa-omics-lrt.png"}}}}
+      - \fancyhead[R]{\textcolor{HeaderText}{\textbf{Your Document Title}}}
+      - \fancyhead[R]{\textcolor{mybgcolor4}{NOAA PMEL OME}}
       - \fancyhead[C]{\color{white}\rule{\textwidth}{0.4pt}} 
+      - \renewcommand{\headrulewidth}{0pt}
       - \setlength{\headheight}{50pt} # Adjust headheight to prevent overlap
       - \usepackage{titling}
       - \setlength{\droptitle}{-7em}
@@ -43,6 +47,21 @@ knitr::opts_chunk$set(
   warning = FALSE, 
   error = FALSE, 
   message = FALSE)
+```
+
+```{r colo_bg, include=FALSE}
+library(knitr)
+# Function to color text background (uses LaTeX \colorbox for PDF output)
+color_bg = function(text, color) {
+  outputFormat = opts_knit$get("rmarkdown.pandoc.to")
+  if (outputFormat == 'latex') {
+    # \colorbox{color}{text}
+    paste("\\colorbox{", color, "}{", text, "}", sep = "")
+  } else {
+    # Fallback for other formats like HTML
+    paste("<span style='background-color:", color, "'>", text, "</span>", sep = "")
+  }
+}
 ```
 
 ```{r libraries}
@@ -108,11 +127,13 @@ table_print <- table_raw
 
 We participated in \underline{\textbf{`r xunits(nrow(table_raw))`}} cruises in `r paste0(table_raw[[1,1]])`. 
 
-```{r, out.width="80%"}
+```{r, out.width="80%", background='white'}
 
 table_print %>% 
   kable() %>%
-  kable_styling(font_size = 8)
+  kable_styling(font_size = 8) %>% 
+  kable_styling(full_width = FALSE) %>% 
+  row_spec(row = 0:6,  color = "#003087", background = "white") 
 
 ```
 
