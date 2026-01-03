@@ -1,24 +1,26 @@
 ---
 header-includes:
-      - \usepackage{xcolor}
-      - \definecolor{mybgcolor}{HTML}{002364}
+      - \usepackage{fancyhdr,xcolor, enumitem, zref-savepos}
+      - \definecolor{mybgcolor}{HTML}{00455c}
       - \definecolor{mybgcolor2}{HTML}{5EB6D9}
       - \definecolor{mybgcolor3}{HTML}{C6E6F0}
       - \definecolor{mybgcolor4}{HTML}{001743}
+      - \definecolor{pale_blue}{HTML}{aec9d7}
+      - \usepackage{tcolorbox}
       - \AtBeginDocument{\color{white}}
+      - \AtBeginDocument{\zsavepos{lmarginmark}}
       - \usepackage[default]{sourcesanspro}
       - \usepackage[T1]{fontenc}
-      - \usepackage{enumitem}
       - \setlist{itemsep=10pt, parsep=0pt, topsep=0pt, partopsep=0pt}
       - \usepackage{titlesec}
       - \titlespacing{\title}{0pt}{\parskip}{-\parskip}
       - \usepackage{fancyhdr, graphicx, xcolor}
       - \pagestyle{fancy}
       - \fancyhf{}
-      - \fancyhead[L]{\colorbox{mybgcolor3}{\makebox[\textwidth][l]{\includegraphics[height=1cm, keepaspectratio]{"noaa-omics-lrt.png"}}}}
-      - \fancyhead[R]{\textcolor{HeaderText}{\textbf{Your Document Title}}}
-      - \fancyhead[R]{\textcolor{mybgcolor4}{NOAA PMEL OME}}
-      - \fancyhead[C]{\color{white}\rule{\textwidth}{0.4pt}} 
+      - \setlength{\headheight}{1cm} 
+      - \setlength{\headwidth}{\paperwidth}
+      - \fancyhead[C]{\hspace*{-\zposx{lmarginmark}sp}{\colorbox{white}{\makebox[\dimexpr\pdfpagewidth+18\fboxsep][l]{\hspace*{\zposx{lmarginmark}sp}{\includegraphics[height=1.5cm,keepaspectratio]{"noaa-omics-lrt.png"}}}}}}
+      - \fancypagestyle{plain}{\pagestyle{fancy}}
       - \renewcommand{\headrulewidth}{0pt}
       - \setlength{\headheight}{50pt} # Adjust headheight to prevent overlap
       - \usepackage{titling}
@@ -49,20 +51,6 @@ knitr::opts_chunk$set(
   message = FALSE)
 ```
 
-```{r colo_bg, include=FALSE}
-library(knitr)
-# Function to color text background (uses LaTeX \colorbox for PDF output)
-color_bg = function(text, color) {
-  outputFormat = opts_knit$get("rmarkdown.pandoc.to")
-  if (outputFormat == 'latex') {
-    # \colorbox{color}{text}
-    paste("\\colorbox{", color, "}{", text, "}", sep = "")
-  } else {
-    # Fallback for other formats like HTML
-    paste("<span style='background-color:", color, "'>", text, "</span>", sep = "")
-  }
-}
-```
 
 ```{r libraries}
 library(NMFSReports)
@@ -91,14 +79,17 @@ nmfs_palette("core")(11) -> core_col
 
 \vspace*{-5truemm}
 
-* \Large Designed and validated a \underline{\textbf{qPCR eDNA assay for sunflower stars }} (*Pycnopodia helianthoides*)
-  * \small spawning a slough of new and ongoing research partnerships and funding to identify remnant populations in California, understand the drivers of eDNA fate and transport, and to benchmark quantitative abundance estimation.
+\begin{tcolorbox}[colback=pale_blue, colframe=mybgcolor4, boxsep=3pt]
+\color{mybgcolor4}
 
-* \Large \underline{\textbf{Tripled our lab processing and sequencing efficiency}} over the last two years,
-  * \small increasing our ability to generate high throughput ocean biomolecular observations.
+\begin{itemize}[itemsep=1em, topsep=1em] 
+    \item \normalsize Designed and validated a \underline{\textbf{qPCR eDNA assay for sunflower stars }} (*Pycnopodia helianthoides*), \small spawning a slough of new and ongoing research partnerships and funding to identify remnant populations in California, understand the drivers of eDNA fate and transport, and to benchmark quantitative abundance estimation.
+    \item \normalsize \underline{\textbf{Tripled our lab processing and sequencing efficiency}} over the last two years, \small increasing our ability to generate high throughput ocean biomolecular observations.
+    \item \normalsize \underline{\textbf{Advanced our biomolecular data management workflows}}, \small developing a robust laboratory information management system that records data from sample collection to data provisioning. This included publishing \underline{\textbf{2 peer reviewed manuscripts}} and publishing \underline{\textbf{25 SOPS}} (BeBOP FAIRe protocols).
+    
+\end{itemize}
 
-* \Large \underline{\textbf{Advanced our biomolecular data management workflows}}, 
-  * \small developing a robust laboratory information management system that records data from sample collection to data provisioning. This included publishing \underline{\textbf{2 peer reviewed manuscripts}} and publishing \underline{\textbf{25 SOPS}} (BeBOP FAIRe protocols).
+\end{tcolorbox}
 
 # \textcolor{mybgcolor2}{By the Numbers}
 
@@ -130,7 +121,7 @@ We participated in \underline{\textbf{`r xunits(nrow(table_raw))`}} cruises in `
 ```{r, out.width="80%", background='white'}
 
 table_print %>% 
-  kable() %>%
+  kable(linesep = "") %>%
   kable_styling(font_size = 8) %>% 
   kable_styling(full_width = FALSE) %>% 
   row_spec(row = 0:6,  color = "#003087", background = "white") 
@@ -212,4 +203,3 @@ knitr::include_graphics(c("dwan_crab_trap.png", "SamSetta_CTDSampling_PicShaunBe
 **Figure 2.** Left:Capturing eDNA from Dungeness Crab Light Trap. Right:Collecting eDNA from SKQ25 Cruise.
 
 ## Publications
-
