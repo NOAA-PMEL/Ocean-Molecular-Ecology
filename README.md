@@ -69,6 +69,7 @@ Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) <
 
 ## Data Management
 [NOAA 'Omics Draft Data Management Guidelines](https://github.com/aomlomics/omics-data-management) <br>
+[How To Make A BeBOP Protocol.pdf](https://github.com/user-attachments/files/24628979/20250212_NOAAOmics_How.To.Make.A.BeBOP.Protocol.pdf)
 
 ## Suggested Links
 
