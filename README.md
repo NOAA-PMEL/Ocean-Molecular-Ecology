@@ -68,7 +68,10 @@ Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/
 Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) <br>
 
 ## Data Management
-[NOAA 'Omics Draft Data Management Guidelines](https://github.com/aomlomics/omics-data-management) <br>
+[NOAA PMEL OME FAIRe to NCBI Converter](https://github.com/NOAA-PMEL/faire-to-ncbi-converter) <br>
+[NOAA PMEL OME FAIRe Mapper](https://github.com/NOAA-PMEL/FAIRe-Mapping) <br>
+[NOAA PMEL OME Ocean Data Aggregator](https://github.com/NOAA-PMEL/Ocean-Data-Aggregator) <br>
+[NOAA Omics Data Management Guidelines](https://noaa-omics-dmg.readthedocs.io/) <br>
 [How To Make A BeBOP Protocol.pdf](https://github.com/user-attachments/files/24628979/20250212_NOAAOmics_How.To.Make.A.BeBOP.Protocol.pdf)
 
 ## Suggested Links
