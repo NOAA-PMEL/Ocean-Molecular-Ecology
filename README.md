@@ -65,7 +65,10 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 
 ## Bioinformatics & Data Analysis Repositories
 Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/McAllister-NOAA/REVAMP) <br>
-Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) <br>
+Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) & [rCRUX 2.0 ](https://github.com/mooreryan/rCRUXMini) <br>
+Organismal Mapping for Identification of Source Sequence Information Omissions in Nucleotide databases - [OMISSION](https://github.com/McAllister-NOAA/OMISSION/tree/main) <br>
+Metabarcoding Macrodata Refinement - [MDR](https://github.com/DiatomSetta/Sequencing-data-decontamination-and-quality-assurance/blob/main/README.md) <br>
+Lowest Common Ancestor Tool - [taxozack](https://github.com/mooreryan/taxozack) <br>
 
 ## Data Management
 [NOAA PMEL OME FAIRe to NCBI Converter](https://github.com/NOAA-PMEL/faire-to-ncbi-converter) <br>
