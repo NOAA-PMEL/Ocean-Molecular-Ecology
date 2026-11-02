@@ -71,6 +71,7 @@ Metabarcoding Macrodata Refinement - [MDR](https://github.com/DiatomSetta/Sequen
 Lowest Common Ancestor Tool - [taxozack](https://github.com/mooreryan/taxozack) <br>
 
 ## Data Management
+[2026 Global eDNA Conference FAIR eDNA Workshop Resources](https://github.com/NOAA-PMEL/faire-to-ncbi-converter) <br>
 [NOAA PMEL OME FAIRe to NCBI Converter](https://github.com/NOAA-PMEL/faire-to-ncbi-converter) <br>
 [NOAA PMEL OME FAIRe Mapper](https://github.com/NOAA-PMEL/FAIRe-Mapping) <br>
 [NOAA PMEL OME Ocean Data Aggregator](https://github.com/NOAA-PMEL/Ocean-Data-Aggregator) <br>
