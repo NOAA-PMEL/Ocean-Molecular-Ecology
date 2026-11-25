@@ -1,0 +1,238 @@
+---
+header-includes:
+      - \usepackage{fancyhdr,xcolor, enumitem, zref-savepos}
+      - \definecolor{mybgcolor}{HTML}{00455c}
+      - \definecolor{mybgcolor2}{HTML}{5EB6D9}
+      - \definecolor{mybgcolor3}{HTML}{C6E6F0}
+      - \definecolor{mybgcolor4}{HTML}{001743}
+      - \definecolor{pale_blue}{HTML}{aec9d7}
+      - \usepackage{tcolorbox}
+      - \AtBeginDocument{\color{white}}
+      - \AtBeginDocument{\zsavepos{lmarginmark}}
+      - \usepackage[default]{sourcesanspro}
+      - \usepackage[T1]{fontenc}
+      - \setlist{itemsep=10pt, parsep=0pt, topsep=0pt, partopsep=0pt}
+      - \usepackage{titlesec}
+      - \titlespacing{\title}{0pt}{\parskip}{-\parskip}
+      - \usepackage{fancyhdr, graphicx, xcolor}
+      - \pagestyle{fancy}
+      - \fancyhf{}
+      - \setlength{\headheight}{1cm} 
+      - \setlength{\headwidth}{\paperwidth}
+      - \fancyhead[C]{\hspace*{-\zposx{lmarginmark}sp}{\colorbox{white}{\makebox[\dimexpr\pdfpagewidth+18\fboxsep][l]{\hspace*{\zposx{lmarginmark}sp}{\includegraphics[height=1.5cm,keepaspectratio]{"noaa-omics-logo-March2026.jpg"}}}}}}
+      - \fancypagestyle{plain}{\pagestyle{fancy}}
+      - \renewcommand{\headrulewidth}{0pt}
+      - \setlength{\headheight}{50pt} # Adjust headheight to prevent overlap
+      - \usepackage{titling}
+      - \setlength{\droptitle}{-7em}
+      - \usepackage[none]{hyphenat}
+title: "\\Huge\\textcolor{white}{FY26 NOAA PMEL Annual Highlights \\\\ Ocean Molecular Ecology}"
+mainfont: SourceSansPro
+geometry: margin=2cm
+output: pdf_document
+fontsize: 12pt
+csl: vancouver.csl
+bibliography: "./cite/2026/Bibtex.bib"
+nocite: '@*'
+
+---
+
+\thispagestyle{fancy}
+
+\vspace{-35truemm}
+
+\pagecolor{mybgcolor}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE, 
+  include = TRUE,
+  warning = FALSE, 
+  error = FALSE, 
+  message = FALSE)
+```
+
+
+```{r libraries}
+library(NMFSReports)
+library(nmfspalette)
+library(tidyverse)
+library(ggpubr)
+library(magrittr)
+library(ggplot2)
+library(png)
+library(cowplot)
+library(magick)
+library(NatParksPalettes)
+library(gsheet)
+library(here)
+library(knitr)
+library(kableExtra)
+```
+
+```{r}
+#display_nmfs_palette("core", 11)
+nmfs_palette("core")(11) -> core_col
+```
+
+
+# \textcolor{mybgcolor2}{Highlights}
+
+\vspace*{-5truemm}
+
+\begin{tcolorbox}[colback=pale_blue, colframe=mybgcolor4, boxsep=3pt, left=4pt]
+\color{mybgcolor4}
+\large
+
+\begin{itemize}[itemsep=0.8em, topsep=0.5em, leftmargin=*] 
+    \item \underline{\textbf{Published a fully validated qPCR eDNA assay for sunflower stars}} \normalsize (\textit{Pycnopodia helianthoides}), spawning a slough of new and ongoing research partnerships and funding to identify remnant populations in California, understand the drivers of eDNA fate and transport, and to benchmark quantitative abundance estimation.
+    \item \large \underline{\textbf{Maintained our high throughput lab processing,}} \normalsize including sample collection, extractions, sequencing, and qPCR, increasing our ability to generate ocean biomolecular observations.
+    \item \large \underline{\textbf{Advanced our biomolecular data management workflows}}, \normalsize developing a robust laboratory information management system that records data from sample collection to data provisioning. This included publishing \underline{\textbf{2 peer reviewed manuscripts}} and publishing \underline{\textbf{35 SOPS}} (BeBOP FAIRe protocols).
+\end{itemize}
+
+\end{tcolorbox}
+
+\vspace*{-3truemm}
+
+# \textcolor{mybgcolor2}{By the Numbers}
+
+\vspace*{-6truemm}
+
+## Cruises
+
+\vspace*{-3truemm}
+
+```{r cruises}
+
+# Create pretty version of table that will go into report
+cruises <- gsheet2tbl("https://docs.google.com/spreadsheets/d/18LKb5Foy-P0oiZI6J8-HJ7tYcr-nMh9tYHbOaEGHHJQ/edit?gid=1815279931#gid=1815279931") %>% 
+  filter(., Year=="FY26")
+
+header <- "2026 Cruises"
+footnote<-"OME executed fieldwork on 9 cruises in 2026."
+nickname <- "Cruise_table" # this is so you can refer to it later systematically
+alttext <- "This is a 5-column table of Year,	Cruise,Name,	Region,	Project, and	OME Participant. "
+# Create data-saver version of table that will be used to reference things later saved as backup
+table_raw<-cruises
+# Create pretty version of table that will go into report
+table_print <- table_raw
+
+```
+
+
+We participated in \underline{\textbf{`r xunits(nrow(table_raw))`}} cruises in `r paste0(table_raw[[1,1]])`. 
+
+```{r, out.width="95%", background='white'}
+
+table_print %>% 
+  mutate(across(everything(), linebreak)) %>% 
+  kable(format = "latex", escape = FALSE, linesep = "") %>%
+  kable_styling(
+    font_size = 8,
+    full_width = FALSE,
+    latex_options = c("scale_down", "HOLD_position")
+  ) %>% 
+  row_spec(row = 0, bold = TRUE, color = "#003087", background = "white") %>% 
+  row_spec(row = 1:9, color = "#003087", background = "white")
+
+```
+
+\vspace*{-12truemm}
+
+## Sample Collection and Processing
+
+\vspace*{-3truemm}
+
+```{r scp}
+library(gsheet)
+dat <- gsheet2tbl('https://docs.google.com/spreadsheets/d/18LKb5Foy-P0oiZI6J8-HJ7tYcr-nMh9tYHbOaEGHHJQ/edit?gid=342601147#gid=342601147')
+
+dat %>%
+mutate(., `Sequenced:Count`=as.character(`Sequenced:Count`)) %>% 
+mutate(., `Sequenced:Markers`=as.character(`Sequenced:Markers`)) %>% 
+mutate(., `qPCR:Count`=as.character(`qPCR:Count`)) %>% 
+mutate(Index = (row_number())) %>%
+pivot_longer(cols = c(contains(':')),
+names_to = c("Process"),
+values_to = c("Value")) %>%
+separate(Process, c("Process", "Kind") ) %>%
+mutate(Index_2 = str_c(Process, Index)) %>%
+filter(., !is.na(Value)) %>%
+pivot_wider(names_from =Kind, values_from = Value, values_fill = NA) %>%
+filter(., Year !="Previous") %>%
+filter(., Count !="Previous") %>%
+mutate(., Count=as.numeric(Count)) %>% 
+mutate(., Markers=as.numeric(Markers)) %>% 
+mutate(., Total=Count*Markers) %>% 
+mutate(., Count = if_else(Process=="Sequenced", Total, Count)) -> dat_c
+
+# dat_c %>%
+#   group_by(Process, Year) %>% 
+#   dplyr::summarise(Count=sum(Count))
+```
+
+```{r scp_plot, fig.height=2.6, fig.width=10, out.width="95%", fig.align="center"}
+header <- "Sample Collection and Processing"
+footnote<-c("Data switched from civilian to Federal in 2023.")
+nickname <- "scp_plot"
+alttext <- "This is a bar plot of sample collection and processing numbers."
+  
+# Select data and make plot
+figure <- dat_c %>%
+  group_by(Process, Year) %>% 
+  dplyr::summarise(Count=sum(Count)) %>% 
+  ggplot(aes(x = Year, y = Count, fill = Process)) +
+  geom_bar(position="dodge", stat="identity") +
+  facet_wrap(~Process, scales="free_y", nrow=1) +
+  theme_pubr() +
+  theme(strip.background= element_rect(fill = '#001743'),
+        strip.text = element_text(colour = 'white'),
+        axis.text.x = element_text(angle = 40, hjust = 1, vjust = 1), 
+        legend.position = "none",
+        panel.background = element_rect(fill = 'white', colour = '#001743'),
+        plot.background = element_rect(fill = 'white', colour = '#001743'),
+        axis.line = element_line(colour = '#001743'),
+        text = element_text(color = "#001743"),
+        axis.title = element_text(colour = "#001743", face = "bold"),
+        axis.text = element_text(colour = "#001743")) +
+  scale_fill_manual(values=c(natparks.pals("Saguaro", 5)[1],
+                             natparks.pals("Saguaro", 5)[2],
+                             natparks.pals("Saguaro", 5)[3],
+                             natparks.pals("Saguaro", 5)[4]))
+
+figure
+```
+
+\vspace*{-3truemm}
+
+**Figure 1.** OME has continued to maintain efficiency and execute sample collection and processing.
+
+\newpage
+
+```{r side-by-side-images, fig.show="hold", out.width="42%", out.height="5cm", out.extra="keepaspectratio", echo=FALSE, fig.align="center"}
+knitr::include_graphics(c("Gold_Greeley_WCOA26.png", "han_seatrac_2026.png"))
+```
+
+\vspace*{2truemm}
+
+**Figure 2.** Left: Zack Gold and Lucy Greeley rinsing a bongo net tow on WCOA 2026. Right: Han Weinrich working on SHARC deployment.
+
+\vspace*{-2truemm}
+
+## People
+
+\vspace*{-3truemm}
+
+\begin{itemize}[itemsep=3pt, topsep=2pt]
+  \item \underline{\textbf{Guang-Sin Lu and Lucy Greeley}} both joined OME in October 2026 as laboratory technicians.
+  \item We hosted NOAA Hollings Scholar \underline{\textbf{Brookelynn Gotschall}} in 2026 and \underline{\textbf{Dwan Jackson}} graduated from Jackson State.
+\end{itemize}
+
+\vspace*{-2truemm}
+
+## Publications
+
+\vspace*{-3truemm}
+
+\footnotesize
+\setlength{\parskip}{2pt}

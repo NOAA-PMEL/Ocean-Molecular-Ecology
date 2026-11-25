@@ -156,6 +156,9 @@ mutate(., Markers=as.numeric(Markers)) %>%
 mutate(., Total=Count*Markers) %>% 
 mutate(., Count = if_else(Process=="Sequenced", Total, Count)) -> dat_c
 
+dat_c %>%
+  group_by(Process, Year) %>% 
+  dplyr::summarise(Count=sum(Count))
 ```
 
 ```{r scp_plot, fig.height=3, fig.width=10, out.width="80%", fig.align="center"}
