@@ -65,10 +65,18 @@ Home for NOAA Pacific Marine Environmental Laboratory Ocean Molecular Ecology gr
 
 ## Bioinformatics & Data Analysis Repositories
 Metabarcoding Pipeline and Visualization software - [REVAMP](https://github.com/McAllister-NOAA/REVAMP) <br>
-Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) <br>
+Reference Database Generating Tool - [rCRUX](https://github.com/CalCOFI/rCRUX) & [rCRUX 2.0 ](https://github.com/mooreryan/rCRUXMini) <br>
+Organismal Mapping for Identification of Source Sequence Information Omissions in Nucleotide databases - [OMISSION](https://github.com/McAllister-NOAA/OMISSION/tree/main) <br>
+Metabarcoding Macrodata Refinement - [MDR](https://github.com/DiatomSetta/Sequencing-data-decontamination-and-quality-assurance/blob/main/README.md) <br>
+Lowest Common Ancestor Tool - [taxozack](https://github.com/mooreryan/taxozack) <br>
 
 ## Data Management
-[NOAA 'Omics Draft Data Management Guidelines](https://github.com/aomlomics/omics-data-management) <br>
+[2026 Global eDNA Conference FAIR eDNA Workshop Resources](https://github.com/NOAA-PMEL/Ocean-Molecular-Ecology/blob/main/2026%20GEC%20FAIR%20eDNA%20Workshop_%20Mobilizing%20Data%20from%20Standards%20to%20Sharing%20Resources%20(1).pdf) <br>
+[NOAA PMEL OME FAIRe to NCBI Converter](https://github.com/NOAA-PMEL/faire-to-ncbi-converter) <br>
+[NOAA PMEL OME FAIRe Mapper](https://github.com/NOAA-PMEL/FAIRe-Mapping) <br>
+[NOAA PMEL OME Ocean Data Aggregator](https://github.com/NOAA-PMEL/Ocean-Data-Aggregator) <br>
+[NOAA Omics Data Management Guidelines](https://noaa-omics-dmg.readthedocs.io/) <br>
+[How To Make A BeBOP Protocol.pdf](https://github.com/user-attachments/files/24628979/20250212_NOAAOmics_How.To.Make.A.BeBOP.Protocol.pdf)
 
 ## Suggested Links
 
